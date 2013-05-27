@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="353be77e-fc90-4ec0-8b7b-71f7b1a33554" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/cart.rb" afterPath="$PROJECT_DIR$/app/models/cart.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/line_item.rb" afterPath="$PROJECT_DIR$/app/models/line_item.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/carts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/carts/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/line_items_controller_test.rb" afterPath="$PROJECT_DIR$/test/functional/line_items_controller_test.rb" />
     </list>
     <ignored path="depot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +26,11 @@
     <file path="/cart.rb" changelist="353be77e-fc90-4ec0-8b7b-71f7b1a33554" time="1369669326304" ignored="false" />
     <file path="/line_item.rb" changelist="353be77e-fc90-4ec0-8b7b-71f7b1a33554" time="1369671004399" ignored="false" />
     <file path="/line_items_controller.rb" changelist="353be77e-fc90-4ec0-8b7b-71f7b1a33554" time="1369669470175" ignored="false" />
-    <file path="/line_items_controller_test.rb" changelist="353be77e-fc90-4ec0-8b7b-71f7b1a33554" time="1369514518679" ignored="false" />
+    <file path="/line_items_controller_test.rb" changelist="353be77e-fc90-4ec0-8b7b-71f7b1a33554" time="1369671630780" ignored="false" />
     <file path="/show.html.erb" changelist="353be77e-fc90-4ec0-8b7b-71f7b1a33554" time="1369669584295" ignored="false" />
     <file path="/20130527153323_add_quantity_to_line_items.rb" changelist="353be77e-fc90-4ec0-8b7b-71f7b1a33554" time="1369670746133" ignored="false" />
     <file path="/20130527154725_combine_items_in_cart.rb" changelist="353be77e-fc90-4ec0-8b7b-71f7b1a33554" time="1369671200843" ignored="false" />
+    <file path="$PROJECT_DIR$/db/schema.rb" changelist="353be77e-fc90-4ec0-8b7b-71f7b1a33554" time="1369671570594" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +55,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="line_items_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="line_items_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/line_items_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="24" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
+            <state line="64" column="0" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.33272728">
               <folding />
             </state>
           </provider>
@@ -77,10 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20130527154725_combine_items_in_cart.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20130527154725_combine_items_in_cart.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20130527154725_combine_items_in_cart.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="23" selection-start="868" selection-end="868" vertical-scroll-proportion="0.9047619">
+            <state line="25" column="23" selection-start="868" selection-end="868" vertical-scroll-proportion="-19.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carts_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="20" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,7 +116,6 @@
         <option value="$PROJECT_DIR$/test/functional/store_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/models/product.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/depot.css" />
-        <option value="$PROJECT_DIR$/test/functional/line_items_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/store/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/cart.rb" />
@@ -120,6 +124,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20130527153323_add_quantity_to_line_items.rb" />
         <option value="$PROJECT_DIR$/app/models/line_item.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130527154725_combine_items_in_cart.rb" />
+        <option value="$PROJECT_DIR$/test/functional/line_items_controller_test.rb" />
       </list>
     </option>
   </component>
@@ -307,7 +312,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.All tests in: test">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_should_update_line_item">
     <configuration default="false" name="All tests in: functional" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="depot" />
@@ -338,37 +343,6 @@
       <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_should_create_line_item" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="depot" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/functional/line_items_controller_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_create_line_item" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -461,6 +435,28 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="carts_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="depot" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/app/controllers" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -838,18 +834,18 @@
       <item index="2" class="java.lang.String" itemvalue="Rake.test" />
       <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: functional" />
-      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_create_line_item" />
-      <item index="6" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_show_line_item" />
-      <item index="7" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_update_line_item" />
-      <item index="8" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: test" />
+      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_show_line_item" />
+      <item index="6" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_update_line_item" />
+      <item index="7" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: test" />
+      <item index="8" class="java.lang.String" itemvalue="Ruby.carts_controller" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: test" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_update_line_item" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: functional" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_show_line_item" />
-        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_create_line_item" />
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_update_line_item" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: test" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.carts_controller" />
+        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: functional" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_show_line_item" />
       </list>
     </recent_temporary>
   </component>
@@ -986,13 +982,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/depot.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="20" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.8963636">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="8" selection-start="379" selection-end="379" vertical-scroll-proportion="0.3181818">
@@ -1031,20 +1020,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/product.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="18" selection-start="684" selection-end="684" vertical-scroll-proportion="0.6909091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/line_items_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="7" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.62">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/line_items_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="24" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1093,7 +1068,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130527154725_combine_items_in_cart.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="868" selection-end="868" vertical-scroll-proportion="0.9047619">
+        <state line="25" column="23" selection-start="868" selection-end="868" vertical-scroll-proportion="-19.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="20" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/line_items_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="82" selection-start="852" selection-end="852" vertical-scroll-proportion="0.38733706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/line_items_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="1604" selection-end="1604" vertical-scroll-proportion="0.33272728">
           <folding />
         </state>
       </provider>
