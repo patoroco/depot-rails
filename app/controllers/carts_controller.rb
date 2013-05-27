@@ -77,11 +77,12 @@ class CartsController < ApplicationController
   # DELETE /carts/1
   # DELETE /carts/1.json
   def destroy
-    @cart = Cart.find(params[:id])
+    @cart = current_cart
     @cart.destroy
+    session[:cart_id] = nil #borramos el carrito de la sesión
 
     respond_to do |format|
-      format.html { redirect_to carts_url }
+      format.html { redirect_to store_url, :notice => "Tu carrito esta vacio!"}
       format.json { head :no_content }
     end
   end
