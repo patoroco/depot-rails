@@ -82,7 +82,7 @@ class CartsController < ApplicationController
     session[:cart_id] = nil #borramos el carrito de la sesión
 
     respond_to do |format|
-      format.html { redirect_to store_url, :notice => "Tu carrito esta vacio!"}
+      format.html { redirect_to store_url }
       format.json { head :no_content }
     end
   end
