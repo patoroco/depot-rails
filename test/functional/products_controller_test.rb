@@ -2,7 +2,7 @@ require 'test_helper'
 
 class ProductsControllerTest < ActionController::TestCase
   setup do
-    @product = products(:ruby)
+    @product = products(:one)
     @update = {
 	    :title			=> 'Lorem ipsum',
 	    :description	=> 'wibles',
@@ -47,7 +47,7 @@ class ProductsControllerTest < ActionController::TestCase
 
   test "should destroy product" do
     assert_difference('Product.count', -1) do
-      delete :destroy, :id => @product
+      delete :destroy, id: @product
     end
 
     assert_redirected_to products_path
