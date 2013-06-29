@@ -29,6 +29,7 @@ Depot::Application.routes.draw do
 
   controller :sessions do
     get 'login' => :new
+    post 'sessions/new' => :create
     post 'login' => :create
     delete 'logout' => :destroy
   end
